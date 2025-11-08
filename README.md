@@ -47,7 +47,7 @@
 | ソース | 方式 | 遅延 | 特徴・注意点 |
 |--------|------|------|---------------|
 | [wolfxAPI](https://wolfx.jp/apidoc) | WebSocket + HTTP GET | 少 | 自動的にスピードが速いwebsocet接続とWSのプッシュを何らかの原因で見逃しても受信できるHTTPGETの両方で接続し情報を受信しています。 受信遅延は少ないですが稀に緊急地震速報が発表されない場合があります。 |
-| [Yahoo!リアルタイム震度](https://typhoon.yahoo.co.jp/weather/jp/earthquake/kyoshin/) | HTTP GET | 中 | 安安定度が高いYahooリアルタイム震度の緊急地震速報データを抽出して表示しています。HTTPGETのみのため遅延は数秒あります。 |
+| [Yahoo!リアルタイム震度](https://typhoon.yahoo.co.jp/weather/jp/earthquake/kyoshin/) | HTTP GET | 中 | 安定度が高いYahooリアルタイム震度の緊急地震速報データを抽出して表示しています。HTTPGETのみのため遅延は数秒あります。 |
 | [AXIS（無料登録必須）](https://axis.prioris.jp/manage/channel/) | WebSocket | 少 | 無料のアカウント作成・登録を行いチャンネルEEWの受信を有効にし、ソフト内でユーザートークンを入力することでAXISからのEEW情報が受信できます。 受信遅延は少なく、安定性も高いです。ただしAXISの規約内に「再配信、転載、複製、改変、商用利用は禁止」とあるので必ずライブ配信やTwitter上への投稿等を行う場合ソフト内の「AXISとの接続を切断する」を使用してください。 |
 
 > ※ 上記以外の緊急地震速報サービスも、発見次第順次追加予定です。
