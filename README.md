@@ -91,11 +91,11 @@
 
 
 ## 情報元
-- リアルタイム震度
+- リアルタイム震度  
 [強震モニタ](http://www.kmoni.bosai.go.jp/)
-- 緊急地震速報
+- 緊急地震速報  
 [上記](https://github.com/anesewo/kyousin?tab=readme-ov-file#%E6%83%85%E5%A0%B1%E5%85%83)
-- S-net海底震度計
+- S-net海底震度計  
 [海しる](https://www.msil.go.jp/msil/htm/topwindow.html)
 
 
