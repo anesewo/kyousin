@@ -67,12 +67,9 @@
 ### 情報元
 安定性を高めるため、複数の情報源からEEWを取得しています。
 
-| ソース | 方式  | 特徴・注意点 |
-|--------|------|---------------|
-| [wolfxAPI](https://wolfx.jp/apidoc) | WebSocket + HTTP GET  | 自動的にWS接続とHTTPGETの両方で接続し情報を受信しています。 WS接続では即座に情報を取得することが可能で、HTTPGETはWSのプッシュをタブを開いていなかったなどの原因で見逃した時にEEWの更新まで情報が受信できないことを対策するために使用されています。このAPIは受信遅延は少ないですが稀に通常の地震でもwolfxAPI側で緊急地震速報が発表されない場合があります。 |
-| [P2P地震情報（警報のみ）](https://www.p2pquake.net/develop/json_api_v2/)|HTTP GET  | 受信のスピードはこの中で一番早いですが、緊急地震速報（警報）のみです。一般向けの警報と異なる点は[緊急地震速報（予報）について](https://github.com/anesewo/kyousin/blob/main/README.md#%E7%B7%8A%E6%80%A5%E5%9C%B0%E9%9C%87%E9%80%9F%E5%A0%B1%E4%BA%88%E5%A0%B1%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)で説明しています。|
-| [AXIS（無料登録必須）](https://axis.prioris.jp/manage/channel/) | WebSocket  | 無料のアカウント作成・登録を行いチャンネルEEWの受信を有効にし、ソフト内でユーザートークンを入力することでAXISからのEEW情報が受信できます。 受信遅延は少なく、安定性も高いです。ただしAXISの規約内に「再配信、転載、複製、改変、商用利用は禁止」とあるので必ずライブ配信やTwitter上への投稿等を行う場合ソフト内の「AXISとの接続を切断する」を使用してください。 |
-
+- [wolfxAPI](https://wolfx.jp/apidoc)
+- [P2P地震情報（警報のみ）](https://www.p2pquake.net/develop/json_api_v2/)
+- [AXIS（無料登録必須）](https://axis.prioris.jp/manage/channel/)
 
 > ※ 上記以外の緊急地震速報サービスも、発見次第順次追加予定です。
 
