@@ -130,9 +130,9 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 - 地震情報、津波情報  
 [Project DM(Disaster Mitigation)-Data Send Service*](https://dmdata.jp/docs/telegrams/)  
 - 台湾強震モニタ  
-　TREM‑Lite（HP的なものが見つかりませんでした。）
+  TREM‑Lite（HP的なものが見つかりませんでした。）
 ---
-- *がついているもの
+- *がついているもの  
   [リアルタイム地震ビューアーturbowarp版のクラウド変数](https://turbowarp.org/636244032)  
 
 
@@ -146,4 +146,5 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 > 利用者の自己責任でご使用ください。
 
 そして上記したように、AXISの規約内に「再配信、転載、複製、改変、商用利用は禁止」とあるので必ずライブ配信やTwitter上への投稿等を行う場合ソフト内の「AXISとの接続を切断する」を使用してください。
+
 
