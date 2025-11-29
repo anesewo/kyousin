@@ -123,15 +123,15 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 - 緊急地震速報  
 [上記](https://github.com/anesewo/kyousin?tab=readme-ov-file#%E6%83%85%E5%A0%B1%E5%85%83)
 - リアルタイム震度  
-[強震モニタ*](http://www.kmoni.bosai.go.jp/)
+[強震モニタ*](http://www.kmoni.bosai.go.jp/)  
 [P2P強震モニタ](https://github.com/anesewo/Shindokeisoku)
 - S-net海底震度計  
 [海しる*](https://www.msil.go.jp/msil/htm/topwindow.html)
-- 地震情報、津波情報 
+- 地震情報、津波情報  
 [Project DM(Disaster Mitigation)-Data Send Service*](https://dmdata.jp/docs/telegrams/)  
-- 台湾強震モニタ
+- 台湾強震モニタ  
 　TREM‑Lite（HP的なものが見つかりませんでした。）
-
+---
 - *がついているもの
 [リアルタイム地震ビューアーturbowarp版のクラウド変数](https://turbowarp.org/636244032)  
 
@@ -146,5 +146,3 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 > 利用者の自己責任でご使用ください。
 
 そして上記したように、AXISの規約内に「再配信、転載、複製、改変、商用利用は禁止」とあるので必ずライブ配信やTwitter上への投稿等を行う場合ソフト内の「AXISとの接続を切断する」を使用してください。
-
-
