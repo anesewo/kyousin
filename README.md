@@ -115,7 +115,7 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 [強震モニタ](http://www.kmoni.bosai.go.jp/)  
 [P2P強震モニタ](https://github.com/anesewo/Shindokeisoku)
 - S-net海底震度計  
-[海しる](https://www.msil.go.jp/msil/htm/topwindow.html)*
+[海しる](https://www.msil.go.jp/msil/htm/topwindow.html)
 - 地震情報、津波情報  
 [Project DM(Disaster Mitigation)-Data Send Service](https://dmdata.jp/docs/telegrams/)*  
 ---
