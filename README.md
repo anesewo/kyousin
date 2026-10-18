@@ -99,18 +99,9 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 最初に揺れを検知した観測点を仮定震源として発表される場合があります。  
 この時、震源地名や震央の表示は実際の震源を表しません。
 
-また、緊急地震速報（警報）では一般向けに発表される**警報地域**や**震源位置**などの情報に加え、
-- 地震の推定される規模
-- 震源の深さ
-- JMA2001走時表を用いて計算された現在のP波S波到達予報円
-- 推定最大震度
-
-が表示されます。
-
-
 ## 情報源・引用元
 - 緊急地震速報  
-[上記](https://github.com/anesewo/kyousin?tab=readme-ov-file#%E6%83%85%E5%A0%B1%E5%85%83)
+[上記](https://github.com/anesewo/kyousin?tab=readme-ov-file#情報元)
 - リアルタイム震度  
 [強震モニタ](http://www.kmoni.bosai.go.jp/)  
 [P2P強震モニタ](https://github.com/anesewo/Shindokeisoku)
@@ -122,11 +113,21 @@ P2P強震モニタの注意点は[P2P強震モニタGithubリポジトリ](https
 - *がついているもの  
   [リアルタイム地震ビューアーturbowarp版のクラウド変数](https://turbowarp.org/636244032)  
 
+## クレジット
+### 強震モニタの画像から震度の値の抽出
 
+ - [震度の色](https://github.com/ingen084/KyoshinShindoColorMap)
+
+### 日本地図
+
+ - [気象庁 予報区等GISデータ](https://www.data.jma.go.jp/developer/gis.html)
+ - [国土交通省 国土数値情報 湖沼データ](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-W09-v2_2.html)
 
 ## 配信や動画への使用について
-このアプリケーションの表示画面は、**配信や動画等で自由に使用可能**です。  
+このアプリケーションの表示画面は、クレジットを明記する場合に限り**配信で自由に使用可能**です。  
 特別な許可を取る必要はありません。
+
+ライブ配信ではなく動画(アーカイブなどを含む)としてアップロードする場合はクレジットの明記も必要ありません。
 
 > [!WARNING]
 > ただし、動作の安定性・信頼性は一切保証できません。  
